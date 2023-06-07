@@ -1,0 +1,41 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.typing {
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none;
+  height: 25px;
+}
+
+.count-button {
+  color: #219a6f;
+  background-color: #e4e7eb;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
